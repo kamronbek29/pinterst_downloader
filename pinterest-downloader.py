@@ -42,7 +42,7 @@ if __name__ == "__main__":
 
     print('\nPlease, wait, your file is downloading!')
 
-    download_url = get_download_url('https://www.pinterest.com/pin/734227545487221777/')
+    download_url = get_download_url(url)
     if str(what_to_download) == '1':
         download_video(download_url)
     else:
